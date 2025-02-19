@@ -1,6 +1,8 @@
 # KitOps Notes
 
-## Easy deploy of `llama3-8b` on OpenShift
+## Quickstarts
+
+Easy deploy of `llama3-8b` on OpenShift
 
 ```sh
 oc new-project models
@@ -19,6 +21,8 @@ oc expose service/llama3-8b \
 oc patch route/llama3-8b --type merge \
   -p '{"spec": {"tls": {"termination": "edge", "insecureEdgeTerminationPolicy": "Redirect"}}}'
 ```
+
+Some basic commands around `kit`
 
 ```sh
 # storage is at ~/.local/share/kitops
