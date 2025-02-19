@@ -40,5 +40,7 @@ kit unpack jozu.ml/jozu/llama3-8b:8B-text-q8_0 -d scratch
 
 ## Links
 
+- https://kitops.org
+- https://github.com/jozu-ai/kitops
 - https://jozu.ml/docs/understanding-jozu-hub/modelkit-containers.html
 - https://jozu.ml/repository/jozu/llama3-8b/8B-instruct-q5_0/deploy
