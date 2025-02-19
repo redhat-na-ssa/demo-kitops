@@ -2,6 +2,12 @@
 
 ## Quickstarts
 
+Podman example
+
+```sh
+podman run -it --rm -p 8080:8000 "jozu.ml/jozu/llama3-8b/llama-cpp:8B-instruct-q5_0"
+```
+
 Easy deploy of `llama3-8b` on OpenShift
 
 ```sh
