@@ -52,3 +52,4 @@ kit unpack jozu.ml/jozu/llama3-8b:8B-text-q8_0 -d scratch
 - https://jozu.ml/repository/jozu/llama3-8b/8B-instruct-q5_0/deploy
 - https://github.com/oras-project/oras
 - https://github.com/containers/omlmd
+- https://containers.github.io/omlmd
