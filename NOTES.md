@@ -44,6 +44,12 @@ kit info jozu.ml/jozu/llama3-8b:8B-text-q8_0
 kit unpack jozu.ml/jozu/llama3-8b:8B-text-q8_0 -d scratch
 ```
 
+Explore OCI artifacts created by `kit`
+
+```sh
+oras copy jozu.ml/jozu/llama3-8b:8B-text-q8_0 --to-oci-layout scratch/
+```
+
 ## Links
 
 - https://kitops.org
