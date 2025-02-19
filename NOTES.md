@@ -53,3 +53,4 @@ kit unpack jozu.ml/jozu/llama3-8b:8B-text-q8_0 -d scratch
 - https://github.com/oras-project/oras
 - https://github.com/containers/omlmd
 - https://containers.github.io/omlmd
+- https://github.com/meta-llama/llama-stack/blob/main/llama_stack/providers/utils/inference/model_registry.py
